@@ -1,0 +1,50 @@
+# Dataset files - these should be mounted as volumes, not copied
+dataset/
+output/
+
+# Git repository
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Documentation (optional - include if you don't need docs in container)
+README.md
+docs/
+
+# Model files (if they're large and should be mounted)
+*.pt
+*.pth
+*.onnx
+models/
